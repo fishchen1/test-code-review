@@ -32,6 +32,6 @@ if __name__ == '__main__':
         tpos = content["data"][0]["tpos"]
         cv2.line(image, (int(cpos), 0), (int(cpos), height - 1), (255, 0, 0), 2)
         cv2.line(image, (int(tpos), 0), (int(tpos), height - 1), (0, 0, 255), 2)
-        cv2.imwrite("test_draw.jpg", image)
+        # cv2.imwrite("test_draw.jpg", image)
         cv2.imwrite("result1114/"+image_name, image)
         

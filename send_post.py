@@ -12,7 +12,7 @@ def send_post():
 
     # 如果需要发送 JSON，可以用 json= 参数
     # response = requests.post(url, json=data)
-
+    print("test")
     # 这里用 form 表单方式发送
     try:
         response = requests.post(url, data=data, timeout=10)

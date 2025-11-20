@@ -20,7 +20,7 @@ if __name__ == '__main__':
         t0 = time.time()
         r = requests.post(read_CT_auto_url, json.dumps(data_obj))
         t1 = time.time()
-        print('time',t1-t0)
+        # print('time',t1-t0)
         print(r)
         content = r.json()
         print(len(content['data']))

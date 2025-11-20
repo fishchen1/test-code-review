@@ -21,7 +21,7 @@ if __name__ == '__main__':
         r = requests.post(read_CT_auto_url, json.dumps(data_obj))
         t1 = time.time()
         print('time',t1-t0)
-        # print(r)
+        print(r)
         content = r.json()
         print(len(content['data']))
         img_b64decode = base64.b64decode(image_base64)  # base64解码

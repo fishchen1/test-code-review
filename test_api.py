@@ -23,7 +23,7 @@ if __name__ == '__main__':
         print('time',t1-t0)
         print(r)
         content = r.json()
-        print(len(content['data']))
+        # print(len(content['data']))
         img_b64decode = base64.b64decode(image_base64)  # base64解码
         img_array = np.frombuffer(img_b64decode, np.uint8)  # 转换np序列
         image = cv2.imdecode(img_array, cv2.IMREAD_COLOR)

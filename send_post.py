@@ -9,7 +9,8 @@ def send_post():
         "name": "Tom",
         "age": 18
     }
-
+# 如果需要发送 JSON，可以用 json= 参数
+    # 如果需要发送 JSON，可以用 json= 参数
     # 如果需要发送 JSON，可以用 json= 参数
     # response = requests.post(url, json=data)
     print("test")

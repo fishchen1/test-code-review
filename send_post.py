@@ -3,7 +3,7 @@ import requests
 def send_post():
     # 要请求的 URL
     url = "http://localhost:5678/webhook-test/test-code-review"  # 替换成你的目标地址
-
+    # 这不是Java代码
     # 要发送的 POST 数据（字典会自动转为表单）
     data = {
         "name": "Tom",
